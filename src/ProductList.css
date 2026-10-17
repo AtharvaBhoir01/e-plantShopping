@@ -261,3 +261,42 @@ body {
         transform: none;
     }
 }
+
+
+/* Cart icon fix */
+.navbar-links .cart-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-links .cart-link svg {
+    display: block;
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    fill: none;
+    stroke: currentColor;
+    overflow: visible;
+}
+
+.navbar-links .cart-link svg circle {
+    fill: currentColor;
+}
+
+.navbar-links .cart-link svg path {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 8;
+}
+
+.navbar-links .cart_quantity_count {
+    position: static;
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+}
